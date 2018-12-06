@@ -1,0 +1,4 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_CFG_EXT_EN_ENABLEMENT {C_CFG_CONST } {expr !$C_CFG_CONST}
+proc gen_USERPARAMETER_C_CFG_EXT_EN_VALUE {C_CFG_CONST CFG_EXT_EN } {expr $C_CFG_CONST ? true : $CFG_EXT_EN }
+proc gen_USERPARAMETER_C_CFG_FFT_DATA_ENABLEMENT {C_CFG_CONST } {expr $C_CFG_CONST}
