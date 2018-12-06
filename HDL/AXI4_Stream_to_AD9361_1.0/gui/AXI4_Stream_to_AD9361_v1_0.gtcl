@@ -1,0 +1,2 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_C_S_AXIS_DAC_DATA_TDATA_WIDTH_VALUE {C_N_CHANS C_DAC_BITS } {expr 2 * $C_N_CHANS * $C_DAC_BITS}
